@@ -5,6 +5,7 @@
   padding: 60px 0;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+  margin: auto;
 }
 
 .countdown-li {
@@ -251,8 +252,9 @@
   padding: 15px;
   background: linear-gradient(90deg, #ffffff 5%, #cccccc 93%);
   color: rgb(0,0,0);
-  border-color: rgba(179,179,179,0.41);
   border-radius: 10px;
+  border: 1px solid rgba(179,179,179,0.41);
+  outline: none;
 }
 
 .btn-custom-stroke {
@@ -355,7 +357,7 @@
   .menu-wrap .menu > div > div {
     overflow-y: auto;
     width: 100vw;
-    padding: 30px 35px;
+    padding: 80px 35px;
   }
 }
 
@@ -404,7 +406,6 @@
 @media screen and (max-width: 480px) {
   .custom-card {
     padding: 5px 0 15px 0;
-    margin: auto;
     position: relative;
   }
 }
@@ -470,5 +471,23 @@
     top: -50px;
     width: 70px;
   }
+}
+
+@media screen and (max-width: 992px) {
+  #countdown {
+    margin-top: 10px;
+  }
+}
+
+.btn-custom-gradient:hover, .btn-custom-gradient:focus:not(:focus-visible) {
+  color: #000;
+  border: 1px solid rgba(179,179,179,0.41);
+  outline: 0;
+}
+
+.btn-custom-stroke:hover, .btn-custom-stroke:focus:not(:focus-visible) {
+  background: none;
+  border-width: 1px;
+  border-color: #ffffff;
 }
 
