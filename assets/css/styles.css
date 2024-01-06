@@ -406,6 +406,7 @@
   .custom-card {
     padding: 5px 0 15px 0;
     margin: auto;
+    position: relative;
   }
 }
 
