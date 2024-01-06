@@ -194,12 +194,17 @@
 .logo-img {
   width: 90px;
   filter: drop-shadow(2px 4px 6px black);
+  position: absolute;
+  top: -65px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 #countdown {
   text-align: center;
   color: #fff;
-  margin-top: 25px;
+  margin-top: 5px;
 }
 
 .divider-fw {
@@ -292,12 +297,6 @@
 @media all and (max-width: 768px) {
   .countdown-li span {
     font-size: 1.9rem;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .logo-img {
-    width: 50px;
   }
 }
 
@@ -411,16 +410,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  .logo-img {
-    position: absolute;
-    top: -36px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 480px) {
   .title-reg {
     font-size: 1rem;
   }
@@ -476,9 +465,10 @@
   }
 }
 
-@media screen and (max-width: 480px) {
-  #countdown {
-    margin-top: 5px;
+@media screen and (max-width: 992px) {
+  .logo-img {
+    top: -50px;
+    width: 70px;
   }
 }
 
