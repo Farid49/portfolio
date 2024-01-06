@@ -412,7 +412,7 @@
 
 @media screen and (max-width: 480px) {
   .logo-img {
-    position: fixed;
+    position: absolute;
     top: -36px;
     left: 0;
     right: 0;
