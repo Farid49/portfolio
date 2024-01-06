@@ -475,3 +475,9 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  #countdown {
+    margin-top: 5px;
+  }
+}
+
