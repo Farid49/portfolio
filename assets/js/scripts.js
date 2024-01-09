@@ -41,3 +41,5 @@
   }());
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+const videoBackgrounds = new VideoBackgrounds('[data-vbg]');
