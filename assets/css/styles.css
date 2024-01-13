@@ -401,6 +401,7 @@
   margin: 5px;
   font-size: 2rem;
   padding: 5px;
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
