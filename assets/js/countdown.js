@@ -12,15 +12,15 @@
       yyyy = today.getFullYear(),
       nextYear = yyyy + 1,
       dayMonth = "09/30/",
-      birthday = dayMonth + yyyy;
+      fullDate = dayMonth + yyyy;
   
   today = mm + "/" + dd + "/" + yyyy;
-  if (today > birthday) {
-    birthday = dayMonth + nextYear;
+  if (today > fullDate) {
+    fullDate = dayMonth + nextYear;
   }
   //end
   
-  const countDown = new Date(birthday).getTime(),
+  const countDown = new Date(fullDate).getTime(),
       x = setInterval(function() {    
 
         const now = new Date().getTime(),
@@ -39,5 +39,3 @@
         //seconds
       }, 0)
   }());
-
-document.getElementById("year").innerHTML = new Date().getFullYear();
