@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-bs-theme="light" lang="en" style="width: 100%;height: 100%;">
+<html data-bs-theme="light" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -10,11 +10,10 @@
     <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/glitch.css">
 </head>
 
 <body id="v-fog">
-    <div style="z-index: 2;"><div class="menu-wrap">
+    <div class="z-2"><div class="menu-wrap">
     <input type="checkbox" class="toggler">
     <div class="bg-hamburger hamburger"><div></div></div>
     <div class="menu">
@@ -22,57 +21,57 @@
         <div>
             <div class="container">
             <div class="row gx-5">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6 text-start" style="display:flex;flex-direction: column">
-                    <div style="color: #fff">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6 text-start d-flex flex-column">
+                    <div class="text-light">
                         <h4>ABOUT US</h4>
-                        <div style="border-bottom: 3px solid rgba(255,255,255,0.7);width: 50px;margin: 15px 0"></div>
+                        <div class="menu-divider"></div>
                         <p style="text-align:justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus.</p>
                         
                     </div>
-                    <div style="height: 100%; display:flex">
+                    <div class="d-flex h-100">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d134008.69589476057!2d28.796292360548268!3d41.15038455359641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVs!5e0!3m2!1sen!2str!4v1704288450120!5m2!1sen!2str" style="border:0;" class="about-map" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
                 <div class="divider-fw mt-4 d-block d-lg-none"></div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-6 text-start">
-                    <div style="color: #fff">
+                    <div class="text-light">
                         <h4>CONTACT US</h4>
-                        <div style="border-bottom: 3px solid rgba(255,255,255,0.7);width: 50px;margin: 15px 0"></div>
+                        <div class="menu-divider"></div>
                         <p style="text-align:justify">We launch our new website soon. Please stay updated and follow.</p>
                     </div>
                     <div class="row gy-4">
                         <div class="col-12">
                             <form method="get" action="#">
                             <div class="row gy-4 gx-4">
-                                <div class="col-12 col-sm-12 col-md-6 col-lg-6"><input type="text"  class="input-contact" placeholder="ENTER YOUR NAME HERE..." style="padding: 10px 10px;width: 100%;border: 1px solid #fff;border-radius: 10px;font-family: Aboreto, serif;background:transparent;outline:none;color:#fff" /></div>
-                                <div class="col-12 col-sm-12 col-md-6 col-lg-6"><input type="email"  class="input-contact" placeholder="ENTER YOUR EMAIL HERE..." style="padding: 10px 10px;width: 100%;border: 1px solid #fff;border-radius: 10px;font-family: Aboreto, serif;background:transparent;outline:none;color:#fff" /></div>
-                                <div class="col-12"><textarea class="input-contact" placeholder="ENTER YOUR MESSAGE..." rows="5" style="width:100%;padding: 10px 10px;width: 100%;border: 1px solid #fff;border-radius: 10px;font-family: Aboreto, serif;background:transparent;outline:none;color:#fff"></textarea></div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6"><input type="text" placeholder="ENTER YOUR NAME HERE..." class="menu-input" /></div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6"><input type="email"  class="menu-input" placeholder="ENTER YOUR EMAIL HERE..." /></div>
+                                <div class="col-12"><textarea class="menu-input" placeholder="ENTER YOUR MESSAGE..." rows="5" class=""></textarea></div>
                                 <div class="col-12 text-center">
-                                <button class="btn btn-primary" type="submit" style="font-family: Aboreto, serif;width: 100%;padding: 15px;background: linear-gradient(90deg, #ffffff 5%, #cccccc 93%);color: rgb(0,0,0);border-color: rgba(179,179,179,0.41);">SEND MESSAGE</button>
+                                <button class="btn btn-primary btn-custom-gradient" type="submit">SEND MESSAGE</button>
                                 </div>
                             </div>
                                 </form>
                         </div>
                         <div class="divider-fw mt-5"></div>
                         <div class="col-12 col-sm-12 col-md-4">
-                            <div style="text-align:center;color:#fff;">
+                            <div class="text-center text-light">
                                 <i class="la la-map-marker mb-3" style="font-size:2.5rem"></i>
                                 <h5>ADDRESS</h5>
                                 <p>45 Park Avenue,New York, NY 10016</p>
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-4">
-                            <div style="text-align:center;color:#fff;">
+                            <div class="text-center text-light">
                                 <i class="la la-mobile mb-3" style="font-size:2.5rem"></i>
                                 <h5>DIRECT</h5>
-                                <p>T. <a href="tel:012345678991" style="color:#fff;text-decoration:none"> 01 23 456 78 99 1</a><br>M. <a href="tel:012345678991" style="color:#fff;text-decoration:none">01 23 456 78 99 2</a></p>
+                                <p>T. <a href="tel:012345678991" class="text-light text-decoration-none"> 01 23 456 78 99 1</a><br>M. <a href="tel:012345678991" class="text-light text-decoration-none">01 23 456 78 99 2</a></p>
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-4">
-                            <div style="text-align:center;color:#fff;">
+                            <div class="text-center text-light">
                                 <i class="la la-globe mb-3" style="font-size:2.5rem"></i>
                                 <h5>WEB</h5>
-                                <p><a href="mailto:" style="color:#fff;text-decoration:none">info@ariuweb.com</a><br><a href="" style="color:#fff;text-decoration:none">www.ariuweb.com</a></p>
+                                <p><a href="mailto:example@gmail.com" class="text-light text-decoration-none">info@ariuweb.com</a><br><a href="" class="text-light text-decoration-none">www.ariuweb.com</a></p>
                             </div>
                         </div>
                     </div>
@@ -83,7 +82,7 @@
       </div>
     </div>
   </div></div>
-    <div style="width: 100%;height: 100%;background: var(--bs-tertiary-color);">
+    <div class="main-section">
         <div class="container d-flex d-sm-flex d-md-flex d-xxl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-xxl-center align-items-xxl-center" style="position: absolute;left: 0;right: 0;top: 0;bottom: 0;">
             <div class="row gy-4 align-items-center custom-card">
                 <div class="col-10 align-self-center mx-auto">
@@ -96,7 +95,7 @@
                         <div class="description-ico"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" class="swing animated infinite">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9991 6.84976C9.83339 6.43819 8.99813 5.32671 8.99813 4.02014C8.99813 2.36329 10.3413 1.02014 11.9981 1.02014C13.655 1.02014 14.9981 2.36329 14.9981 4.02014C14.9981 5.32601 14.1638 6.43701 12.9991 6.84911L13.0121 19.1375L14.8244 17.315L16.2426 18.7253L12.0119 22.9799L7.75739 18.7491L9.16763 17.3309L11.0122 19.1652L10.9991 6.84976ZM11.9981 5.02014C11.4458 5.02014 10.9981 4.57243 10.9981 4.02014C10.9981 3.46786 11.4458 3.02014 11.9981 3.02014C12.5504 3.02014 12.9981 3.46786 12.9981 4.02014C12.9981 4.57243 12.5504 5.02014 11.9981 5.02014Z" fill="currentColor"></path>
                             </svg></div>
-                        <div style="margin-top: 15px;">
+                        <div class="mt-3">
                             <div class="row">
                                 <div class="col-10 col-sm-10 col-md-8 col-lg-8 col-xl-9 col-xxl-6 mx-auto">
                                     <div class="row gy-3">
@@ -129,25 +128,25 @@
                     <div class="text-center text-sm-center text-md-center text-lg-start text-xl-start text-xxl-start footer-copy-div">&#169 <span>Copyrights <span id="year"></span> AriuWeb All rights reserved.</span></div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <div class="text-center text-sm-center text-md-end text-lg-end text-xl-end text-xxl-end footer-made-div"><span style="margin-right: 5px;color: rgb(255,255,255);">Made with</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" class="pulse animated infinite" style="color: rgb(186,69,69);">
+                    <div class="text-center text-sm-center text-md-end text-lg-end text-xl-end text-xxl-end footer-made-div"><span class="footer-text-color me-1">Made with</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" class="pulse animated infinite" style="color: rgb(186,69,69);">
                             <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
                             <path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"></path>
-                        </svg><span style="margin-left: 5px;color: rgb(255,255,255);">By AriuWeb</span></div>
+                        </svg><span class="footer-text-color ms-1">By AriuWeb</span></div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="modal-1" style="background: transparent;backdrop-filter: blur(5px);">
+    <div class="modal fade modal-style" role="dialog" tabindex="-1" id="modal-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content" style="padding: 20px;">
-                <div class="modal-header" style="border-bottom-style: none;padding: 0;"><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button></div>
-                <div class="modal-body text-center"><span style="font-size: 2rem;font-family: Aboreto, serif;">STAY<strong style="margin-left: 5px;">TUNED</strong></span>
-                    <div style="border-bottom: 1px solid rgba(0,0,0,0.2);margin: 10px auto;width: 50px;"></div>
-                    <p style="font-family: Aboreto, serif;font-size: 0.8rem;">We launch our new website soon.<br>Please stay updated and follow.</p>
+            <div class="modal-content p-4">
+                <div class="modal-header p-0 border-0"><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button></div>
+                <div class="modal-body text-center"><span class="modal-body-title">STAY<strong class="ms-1">TUNED</strong></span>
+                    <div class="modal-divider"></div>
+                    <p class="modal-body-desc">We launch our new website soon.<br>Please stay updated and follow.</p>
                     <div class="row">
                         <div class="col-sm-12 col-xxl-10 mx-auto">
                             <form method="get" action="#">
-                                <div style="display: flex;"><input class="form-control" type="email" placeholder="ENTER YOUR EMAIL HERE..." style="padding: 10px 5px;width: 100%;border: none;font-family: Aboreto, serif;outline: none;border-radius: 10px 0 0 10px;box-shadow: 0px 0px 20px 5px #c4c4c469;"><button class="btn btn-primary d-flex justify-content-center align-items-center" type="submit" style="background: rgb(64,65,112);border-radius: 0 10px 10px 0;padding: 15px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor">
+                                <div class="d-flex"><input class="form-control modal-body-input" type="email" placeholder="ENTER YOUR EMAIL HERE..."><button class="btn btn-primary d-flex justify-content-center align-items-center modal-body-button" type="submit"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor">
                                             <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
                                             <path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"></path>
                                         </svg></button></div>
