@@ -481,6 +481,105 @@ html, body {
 
 /* Responsive Styles Start */
 
+@media screen and (max-width: 992px) {
+  .logo {
+    width: 90px;
+  }
+
+  .logo-img {
+    top: -50px;
+    width: 70px;
+  }
+
+  .d-logo {
+    padding: 0;
+  }
+
+  .menu-wrap, .menu-wrap .toggler, .menu-wrap .hamburger {
+    top: 5px;
+    right: 5px;
+  }
+
+  .menu-wrap .menu > div > div {
+    overflow-y: auto;
+    width: 100vw;
+    padding: 75px 30px;
+  }
+
+  #countdown {
+    margin-top: 10px;
+  }
+
+  .idx-heading {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .logo-img {
+    width: 70px;
+  }
+
+  .countdown-li {
+    font-size: 1rem;
+  }
+
+  .countdown-li span {
+    font-size: 2rem;
+  }
+
+  .title-reg {
+    font-size: 2rem;
+  }
+
+  .title-bold {
+    font-size: 2rem;
+  }
+
+  .custom-card {
+    padding: 30px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .custom-card {
+    padding: 25px 0;
+  }
+
+  .countdown-li {
+    font-size: 0.8rem;
+  }
+
+  .countdown-li span {
+    font-size: 1.9rem;
+  }
+
+  .title-reg {
+    font-size: 1.5rem;
+  }
+
+  .title-bold {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.6rem;
+  }
+
+  .description-ico > svg {
+    font-size: 2rem;
+  }
+
+  .footer-copy-div, .footer-made-div {
+    margin: 0 auto 30px auto;
+  }
+
+  .menu-wrap .menu > div {
+    width: 300vw;
+    height: 300vw;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .idx-heading {
     font-size: 1rem;
@@ -527,108 +626,6 @@ html, body {
 
   .footer-made-div {
     margin-bottom: 15px;
-  }
-}
-
-
-@media screen and (max-width: 768px) {
-  .custom-card {
-    padding: 25px 0;
-  }
-
-  .countdown-li {
-    font-size: 0.8rem;
-  }
-
-  .countdown-li span {
-    font-size: 1.9rem;
-  }
-
-  .title-reg {
-    font-size: 1.5rem;
-  }
-
-  .title-bold {
-    font-size: 1.5rem;
-  }
-
-  .description {
-    font-size: 0.6rem;
-  }
-
-  .description-ico > svg {
-    font-size: 2rem;
-  }
-
-  .footer-copy-div, .footer-made-div {
-    margin: 0 auto 30px auto;
-  }
-
-  .menu-wrap .menu > div {
-    width: 300vw;
-    height: 300vw;
-  }
-}
-
-
-@media screen and (min-width: 768px) and (max-width: 992px) {
-  .logo-img {
-    width: 70px;
-  }
-
-  .countdown-li {
-    font-size: 1rem;
-  }
-
-  .countdown-li span {
-    font-size: 2rem;
-  }
-
-  .title-reg {
-    font-size: 2rem;
-  }
-
-  .title-bold {
-    font-size: 2rem;
-  }
-
-  .custom-card {
-    padding: 30px 0;
-  }
-}
-
-
-@media screen and (max-width: 992px) {
-  .logo {
-    width: 90px;
-  }
-
-  .logo-img {
-    top: -50px;
-    width: 70px;
-  }
-
-  .d-logo {
-    padding: 0;
-  }
-
-  .menu-wrap, .menu-wrap .toggler, .menu-wrap .hamburger {
-    top: 5px;
-    right: 5px;
-  }
-
-  .menu-wrap .menu > div > div {
-    overflow-y: auto;
-    width: 100vw;
-    padding: 75px 30px;
-  }
-
-  #countdown {
-    margin-top: 10px;
-  }
-
-  .idx-heading {
-    font-size: 1.5rem;
   }
 }
 
